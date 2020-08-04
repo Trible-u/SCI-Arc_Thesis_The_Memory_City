@@ -1,0 +1,225 @@
+<set>
+  <tiles>
+<tile name="mx/Prefab/1 1" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/2 1" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/2 2" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Corridor_A" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Cuneo_Monument_A" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Cuneo_Monument_A_1" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Milan_German_Opposition_Monument" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Netherlands_Monument 1" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Netherlands_Monument" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Plate_A" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Plate_B" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Roof_A" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Roof_B" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/San_Cataldo_Cemetery" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Segrate_Monument_A 1" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Segrate_Monument_A" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Segrate_Monument_B" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Segrate_Monument_B_1" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Segrate_Monument_C" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Stair_A" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Stair_B" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Teatro_Del_Mondo 1" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Teatro_Del_Mondo" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/ValtuBottom_A 1" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/ValtuBottom_A" symmetry="X" weight="1.0"/>
+<tile name="mx/Prefab/Wall_A 2" symmetry="X" weight="1.0"/>
+<tile name="Elements/Prefab/Tree01" symmetry="X" weight="1.0"/>
+<tile name="Elements/Prefab/Tree02" symmetry="X" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="Elements/Prefab/Tree01 0" right="mx/Prefab/ValtuBottom_A 0"/>
+  <neighbor left="Elements/Prefab/Tree01 1" right="Elements/Prefab/Tree01 0"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 1" right="mx/Prefab/ValtuBottom_A 1"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 1" right="Elements/Prefab/Tree02 1"/>
+  <neighbor left="mx/Prefab/1 1 1" right="mx/Prefab/Segrate_Monument_B 1"/>
+  <neighbor left="mx/Prefab/Milan_German_Opposition_Monument 0" right="Elements/Prefab/Tree01 3"/>
+  <neighbor left="mx/Prefab/Milan_German_Opposition_Monument 1" right="mx/Prefab/Segrate_Monument_C 3"/>
+  <neighbor left="Elements/Prefab/Tree01 3" right="mx/Prefab/ValtuBottom_A 0"/>
+  <neighbor left="Elements/Prefab/Tree01 0" right="Elements/Prefab/Tree01 3"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 1" right="mx/Prefab/Netherlands_Monument 1"/>
+  <neighbor left="mx/Prefab/Wall_A 2 1" right="mx/Prefab/Cuneo_Monument_A_1 1"/>
+  <neighbor left="mx/Prefab/Netherlands_Monument 1 0" right="Elements/Prefab/Tree02 0"/>
+  <neighbor left="mx/Prefab/Netherlands_Monument 1 1" right="Elements/Prefab/Tree02 0"/>
+  <neighbor left="Elements/Prefab/Tree02 0" right="mx/Prefab/Milan_German_Opposition_Monument 3"/>
+  <neighbor left="Elements/Prefab/Tree02 1" right="mx/Prefab/Teatro_Del_Mondo 1 1"/>
+  <neighbor left="mx/Prefab/Milan_German_Opposition_Monument 3" right="mx/Prefab/Segrate_Monument_B 0"/>
+  <neighbor left="mx/Prefab/Milan_German_Opposition_Monument 0" right="mx/Prefab/ValtuBottom_A 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B 0" right="mx/Prefab/Milan_German_Opposition_Monument 0"/>
+  <neighbor left="mx/Prefab/Milan_German_Opposition_Monument 1" right="mx/Prefab/1 1 1"/>
+  <neighbor left="mx/Prefab/Cuneo_Monument_A 0" right="mx/Prefab/Segrate_Monument_C 2"/>
+  <neighbor left="mx/Prefab/Cuneo_Monument_A 1" right="mx/Prefab/Roof_A 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_C 2" right="Elements/Prefab/Tree01 2"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_C 3" right="Elements/Prefab/Tree02 0"/>
+  <neighbor left="Elements/Prefab/Tree01 2" right="mx/Prefab/Netherlands_Monument 0"/>
+  <neighbor left="mx/Prefab/Netherlands_Monument 1" right="Elements/Prefab/Tree01 0"/>
+  <neighbor left="Elements/Prefab/Tree02 0" right="Elements/Prefab/Tree02 3"/>
+  <neighbor left="Elements/Prefab/Tree02 3" right="mx/Prefab/Teatro_Del_Mondo 1 0"/>
+  <neighbor left="Elements/Prefab/Tree02 0" right="mx/Prefab/Teatro_Del_Mondo 1 0"/>
+  <neighbor left="mx/Prefab/Teatro_Del_Mondo 1 0" right="mx/Prefab/ValtuBottom_A 0"/>
+  <neighbor left="mx/Prefab/Teatro_Del_Mondo 1 1" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 1" right="mx/Prefab/Segrate_Monument_B 1"/>
+  <neighbor left="mx/Prefab/Roof_A 0" right="Elements/Prefab/Tree02 3"/>
+  <neighbor left="mx/Prefab/Roof_A 1" right="mx/Prefab/Roof_A 1"/>
+  <neighbor left="Elements/Prefab/Tree02 0" right="mx/Prefab/Roof_A 1"/>
+  <neighbor left="Elements/Prefab/Tree01 0" right="mx/Prefab/Segrate_Monument_C 0"/>
+  <neighbor left="mx/Prefab/Teatro_Del_Mondo 1 3" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/Teatro_Del_Mondo 1 0" right="mx/Prefab/Netherlands_Monument 1 1"/>
+  <neighbor left="mx/Prefab/2 1 0" right="mx/Prefab/Segrate_Monument_B 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B 0" right="mx/Prefab/Corridor_A 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B 1" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/Corridor_A 0" right="mx/Prefab/Roof_A 0"/>
+  <neighbor left="mx/Prefab/Corridor_A 1" right="mx/Prefab/ValtuBottom_A 1"/>
+  <neighbor left="mx/Prefab/Roof_A 0" right="mx/Prefab/Roof_A 0"/>
+  <neighbor left="mx/Prefab/Roof_A 1" right="mx/Prefab/Segrate_Monument_B_1 1"/>
+  <neighbor left="mx/Prefab/Roof_A 0" right="mx/Prefab/Cuneo_Monument_A 3"/>
+  <neighbor left="mx/Prefab/Roof_A 1" right="mx/Prefab/Segrate_Monument_B 1"/>
+  <neighbor left="mx/Prefab/Cuneo_Monument_A 3" right="mx/Prefab/Segrate_Monument_C 3"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_C 3" right="mx/Prefab/Segrate_Monument_C 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_C 0" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_C 0" right="mx/Prefab/Teatro_Del_Mondo 3"/>
+  <neighbor left="mx/Prefab/Teatro_Del_Mondo 0" right="mx/Prefab/Cuneo_Monument_A_1 0"/>
+  <neighbor left="mx/Prefab/Netherlands_Monument 1 1" right="mx/Prefab/Teatro_Del_Mondo 1 0"/>
+  <neighbor left="mx/Prefab/2 1 1" right="mx/Prefab/Roof_A 1"/>
+  <neighbor left="mx/Prefab/Cuneo_Monument_A 0" right="mx/Prefab/ValtuBottom_A 0"/>
+  <neighbor left="mx/Prefab/Cuneo_Monument_A 1" right="mx/Prefab/Corridor_A 1"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 0" right="mx/Prefab/Segrate_Monument_B_1 0"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 1" right="mx/Prefab/Roof_B 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B_1 0" right="mx/Prefab/Segrate_Monument_B 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B_1 1" right="mx/Prefab/Corridor_A 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B 1" right="mx/Prefab/Cuneo_Monument_A_1 3"/>
+  <neighbor left="mx/Prefab/2 1 1" right="mx/Prefab/Cuneo_Monument_A_1 3"/>
+  <neighbor left="mx/Prefab/Teatro_Del_Mondo 1 0" right="mx/Prefab/Segrate_Monument_B_1 1"/>
+  <neighbor left="mx/Prefab/2 1 0" right="mx/Prefab/Roof_A 0"/>
+  <neighbor left="mx/Prefab/Roof_A 0" right="mx/Prefab/Corridor_A 0"/>
+  <neighbor left="mx/Prefab/Corridor_A 0" right="mx/Prefab/Corridor_A 0"/>
+  <neighbor left="mx/Prefab/Corridor_A 1" right="mx/Prefab/1 1 1"/>
+  <neighbor left="mx/Prefab/Corridor_A 0" right="mx/Prefab/Roof_B 0"/>
+  <neighbor left="mx/Prefab/Corridor_A 1" right="mx/Prefab/Roof_B 1"/>
+  <neighbor left="mx/Prefab/Roof_B 0" right="mx/Prefab/Corridor_A 0"/>
+  <neighbor left="mx/Prefab/Roof_B 1" right="mx/Prefab/2 2 1"/>
+  <neighbor left="mx/Prefab/Corridor_A 0" right="mx/Prefab/Cuneo_Monument_A_1 2"/>
+  <neighbor left="mx/Prefab/Cuneo_Monument_A_1 3" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/Cuneo_Monument_A_1 2" right="mx/Prefab/Stair_B 3"/>
+  <neighbor left="mx/Prefab/Stair_B 0" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/Corridor_A 0" right="mx/Prefab/Segrate_Monument_B_1 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B_1 1" right="mx/Prefab/Segrate_Monument_B_1 1"/>
+  <neighbor left="mx/Prefab/Roof_A 0" right="mx/Prefab/1 1 0"/>
+  <neighbor left="mx/Prefab/1 1 0" right="mx/Prefab/Roof_B 0"/>
+  <neighbor left="mx/Prefab/1 1 1" right="mx/Prefab/2 2 1"/>
+  <neighbor left="mx/Prefab/Roof_B 0" right="mx/Prefab/2 2 0"/>
+  <neighbor left="mx/Prefab/2 2 0" right="mx/Prefab/Roof_B 0"/>
+  <neighbor left="mx/Prefab/2 2 1" right="mx/Prefab/ValtuBottom_A 1 0"/>
+  <neighbor left="mx/Prefab/Roof_B 0" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/Roof_B 1" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/2 1 0" right="mx/Prefab/ValtuBottom_A 0"/>
+  <neighbor left="mx/Prefab/2 1 1" right="mx/Prefab/Cuneo_Monument_A_1 1"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 0" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 1" right="mx/Prefab/Stair_B 0"/>
+  <neighbor left="mx/Prefab/2 1 0" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/2 1 1" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/2 1 1" right="mx/Prefab/Netherlands_Monument 1 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B_1 0" right="mx/Prefab/Corridor_A 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B_1 1" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/Corridor_A 1" right="mx/Prefab/Segrate_Monument_B_1 1"/>
+  <neighbor left="mx/Prefab/2 2 0" right="mx/Prefab/2 2 0"/>
+  <neighbor left="mx/Prefab/2 2 0" right="mx/Prefab/ValtuBottom_A 1 3"/>
+  <neighbor left="mx/Prefab/2 2 1" right="mx/Prefab/Roof_A 1"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 1 3" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 1 0" right="mx/Prefab/Segrate_Monument_C 1"/>
+  <neighbor left="mx/Prefab/2 1 0" right="mx/Prefab/Cuneo_Monument_A_1 0"/>
+  <neighbor left="mx/Prefab/Cuneo_Monument_A_1 0" right="mx/Prefab/Stair_B 3"/>
+  <neighbor left="mx/Prefab/Cuneo_Monument_A_1 1" right="mx/Prefab/Roof_B 1"/>
+  <neighbor left="mx/Prefab/Stair_B 3" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/Stair_B 0" right="mx/Prefab/Roof_B 1"/>
+  <neighbor left="mx/Prefab/2 1 0" right="mx/Prefab/Netherlands_Monument 1 0"/>
+  <neighbor left="mx/Prefab/2 1 1" right="mx/Prefab/Segrate_Monument_B_1 1"/>
+  <neighbor left="mx/Prefab/Netherlands_Monument 1 1" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/Netherlands_Monument 0" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/Netherlands_Monument 1" right="mx/Prefab/Corridor_A 1"/>
+  <neighbor left="mx/Prefab/2 1 0" right="mx/Prefab/Segrate_Monument_B_1 0"/>
+  <neighbor left="mx/Prefab/2 1 1" right="mx/Prefab/Corridor_A 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B 1" right="mx/Prefab/1 1 1"/>
+  <neighbor left="mx/Prefab/Roof_A 0" right="mx/Prefab/Segrate_Monument_C 0"/>
+  <neighbor left="mx/Prefab/Roof_A 1" right="mx/Prefab/Corridor_A 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_C 0" right="mx/Prefab/Roof_A 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_C 1" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/Roof_A 0" right="mx/Prefab/Roof_B 0"/>
+  <neighbor left="mx/Prefab/Roof_A 1" right="mx/Prefab/Roof_B 1"/>
+  <neighbor left="mx/Prefab/Roof_B 0" right="mx/Prefab/Roof_B 0"/>
+  <neighbor left="mx/Prefab/Roof_B 1" right="mx/Prefab/1 1 1"/>
+  <neighbor left="mx/Prefab/Roof_B 0" right="mx/Prefab/Segrate_Monument_B_1 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B_1 0" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B_1 1" right="mx/Prefab/Roof_B 1"/>
+  <neighbor left="mx/Prefab/2 1 1" right="mx/Prefab/Segrate_Monument_A 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B_1 1" right="mx/Prefab/Plate_A 1"/>
+  <neighbor left="mx/Prefab/Corridor_A 0" right="mx/Prefab/1 1 0"/>
+  <neighbor left="mx/Prefab/Corridor_A 1" right="mx/Prefab/Corridor_A 1"/>
+  <neighbor left="mx/Prefab/1 1 0" right="mx/Prefab/Segrate_Monument_C 0"/>
+  <neighbor left="mx/Prefab/1 1 1" right="mx/Prefab/Plate_B 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_C 0" right="mx/Prefab/Corridor_A 0"/>
+  <neighbor left="mx/Prefab/Corridor_A 0" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/Corridor_A 1" right="mx/Prefab/2 2 1"/>
+  <neighbor left="mx/Prefab/2 1 0" right="mx/Prefab/Roof_B 0"/>
+  <neighbor left="mx/Prefab/2 1 1" right="mx/Prefab/Plate_A 1"/>
+  <neighbor left="mx/Prefab/Roof_B 0" right="mx/Prefab/1 1 0"/>
+  <neighbor left="mx/Prefab/Roof_B 1" right="mx/Prefab/Plate_B 1"/>
+  <neighbor left="mx/Prefab/1 1 0" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/1 1 1" right="mx/Prefab/Stair_A 0"/>
+  <neighbor left="mx/Prefab/Roof_B 0" right="mx/Prefab/Segrate_Monument_A 0"/>
+  <neighbor left="mx/Prefab/Roof_B 1" right="mx/Prefab/Segrate_Monument_A 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_A 0" right="mx/Prefab/Plate_A 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_A 1" right="mx/Prefab/Segrate_Monument_A 1"/>
+  <neighbor left="mx/Prefab/Plate_A 0" right="mx/Prefab/Stair_B 0"/>
+  <neighbor left="mx/Prefab/Stair_B 1" right="mx/Prefab/Segrate_Monument_A 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B_1 1" right="Elements/Prefab/Tree02 1"/>
+  <neighbor left="mx/Prefab/Corridor_A 0" right="mx/Prefab/Plate_B 0"/>
+  <neighbor left="mx/Prefab/Corridor_A 1" right="mx/Prefab/Segrate_Monument_B 1"/>
+  <neighbor left="mx/Prefab/Plate_B 1" right="mx/Prefab/Corridor_A 1"/>
+  <neighbor left="mx/Prefab/2 2 0" right="mx/Prefab/Plate_A 0"/>
+  <neighbor left="mx/Prefab/2 2 1" right="mx/Prefab/Segrate_Monument_B 1"/>
+  <neighbor left="mx/Prefab/Plate_A 0" right="mx/Prefab/Plate_B 0"/>
+  <neighbor left="mx/Prefab/Plate_A 1" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/Plate_B 0" right="mx/Prefab/Stair_A 3"/>
+  <neighbor left="mx/Prefab/Plate_B 1" right="mx/Prefab/Segrate_Monument_B_1 1"/>
+  <neighbor left="mx/Prefab/Stair_A 3" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/Stair_A 0" right="mx/Prefab/2 1 1"/>
+  <neighbor left="mx/Prefab/2 1 0" right="mx/Prefab/Segrate_Monument_A 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_A 0" right="mx/Prefab/Segrate_Monument_A 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_A 1" right="mx/Prefab/San_Cataldo_Cemetery 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_A 1" right="mx/Prefab/Segrate_Monument_A 1 1"/>
+  <neighbor left="Elements/Prefab/Tree02 0" right="mx/Prefab/2 2 0"/>
+  <neighbor left="mx/Prefab/2 2 0" right="mx/Prefab/Segrate_Monument_B 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B 1" right="mx/Prefab/2 2 1"/>
+  <neighbor left="mx/Prefab/Corridor_A 0" right="mx/Prefab/2 2 0"/>
+  <neighbor left="mx/Prefab/2 2 1" right="mx/Prefab/Plate_B 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B 0" right="mx/Prefab/2 1 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B 1" right="mx/Prefab/Stair_A 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B_1 1" right="mx/Prefab/Plate_B 1"/>
+  <neighbor left="mx/Prefab/2 1 0" right="mx/Prefab/Plate_A 0"/>
+  <neighbor left="mx/Prefab/2 1 1" right="mx/Prefab/Segrate_Monument_B 1"/>
+  <neighbor left="mx/Prefab/San_Cataldo_Cemetery 0" right="mx/Prefab/Segrate_Monument_A 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_A 0" right="mx/Prefab/Segrate_Monument_A 1 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_A 1 1" right="mx/Prefab/Segrate_Monument_A 1 1"/>
+  <neighbor left="mx/Prefab/2 2 0" right="mx/Prefab/ValtuBottom_A 0"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 0" right="mx/Prefab/Plate_B 0"/>
+  <neighbor left="mx/Prefab/Plate_B 0" right="mx/Prefab/Stair_A 0"/>
+  <neighbor left="mx/Prefab/Plate_B 1" right="mx/Prefab/ValtuBottom_A 1"/>
+  <neighbor left="mx/Prefab/Stair_A 0" right="mx/Prefab/Netherlands_Monument 1 0"/>
+  <neighbor left="mx/Prefab/Stair_A 1" right="mx/Prefab/ValtuBottom_A 1 1"/>
+  <neighbor left="mx/Prefab/Netherlands_Monument 1 0" right="mx/Prefab/Plate_B 0"/>
+  <neighbor left="mx/Prefab/Plate_B 0" right="mx/Prefab/Segrate_Monument_B 0"/>
+  <neighbor left="mx/Prefab/Plate_B 1" right="Elements/Prefab/Tree02 3"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B 1" right="mx/Prefab/Plate_B 1"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_A 1 1" right="Elements/Prefab/Tree02 0"/>
+  <neighbor left="Elements/Prefab/Tree02 0" right="mx/Prefab/ValtuBottom_A 0"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 0" right="mx/Prefab/ValtuBottom_A 1 0"/>
+  <neighbor left="mx/Prefab/ValtuBottom_A 1 0" right="Elements/Prefab/Tree02 3"/>
+  <neighbor left="Elements/Prefab/Tree02 3" right="Elements/Prefab/Tree02 2"/>
+  <neighbor left="Elements/Prefab/Tree02 2" right="mx/Prefab/Plate_B 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_B 0" right="mx/Prefab/Netherlands_Monument 1 0"/>
+  <neighbor left="Elements/Prefab/Tree02 0" right="mx/Prefab/Segrate_Monument_A 1 0"/>
+  <neighbor left="mx/Prefab/Segrate_Monument_A 1 0" right="Elements/Prefab/Tree02 3"/>
+	</neighbors>
+</set>

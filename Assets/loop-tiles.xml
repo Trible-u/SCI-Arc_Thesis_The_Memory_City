@@ -1,0 +1,11 @@
+<set>
+  <tiles>
+<tile name="curve.tile.L" symmetry="L" weight="1.0"/>
+	</tiles>
+<neighbors>  <neighbor left="curve.tile.L 3" right="curve.tile.L 2"/>
+  <neighbor left="curve.tile.L 0" right="curve.tile.L 1"/>
+  <neighbor left="curve.tile.L 3" right="curve.tile.L 2"/>
+  <neighbor left="curve.tile.L 0" right="curve.tile.L 1"/>
+  <neighbor left="curve.tile.L 1" right="curve.tile.L 0"/>
+	</neighbors>
+</set>
