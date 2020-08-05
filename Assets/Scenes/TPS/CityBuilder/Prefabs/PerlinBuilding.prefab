@@ -45,16 +45,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxPieces: 4
   perlinScaleFactor: 2
-  randomVariationMin: 0
-  randomVariationMax: 0
+  randomVariationMin: 2
+  randomVariationMax: 2
   baseParts:
-  - {fileID: 88987523219131200, guid: ae31995eec16d7f45b8356b5fe1341a4, type: 3}
+  - {fileID: 5842915801652959899, guid: b124fca8976f6d94a85208d62c20be35, type: 3}
   - {fileID: 6720047137310382676, guid: 88cd797c99f18b3498ef04655095bf00, type: 3}
   - {fileID: 3867460424587804144, guid: f6671d40a53ae054c8ec9cc0d2dad2d4, type: 3}
   middleParts:
   - {fileID: 9064303558560980293, guid: b5d64a39451fea4468e912853d0e0338, type: 3}
   - {fileID: 8115868372958461418, guid: bf7272737a87eee47bc83b8d790c3b45, type: 3}
   - {fileID: 3161906987117747312, guid: 2544157cdedab9a429a7a18781b6dad5, type: 3}
+  - {fileID: 0}
   topParts:
   - {fileID: 4985615719912876041, guid: b6a92598cedc2464c92eafafd2b1f799, type: 3}
   - {fileID: 5480727620840610768, guid: 464d899921d476a4482d2a9cf26eed88, type: 3}
