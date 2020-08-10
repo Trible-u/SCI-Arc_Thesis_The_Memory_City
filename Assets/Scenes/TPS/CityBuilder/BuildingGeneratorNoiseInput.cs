@@ -48,7 +48,8 @@ public class BuildingGeneratorNoiseInput : MonoBehaviour
         GameObject clone = Instantiate(randomTransform.gameObject, this.transform.position + new Vector3(0, inputHeight, 0), transform.rotation) as GameObject;
         Mesh cloneMesh = clone.GetComponentInChildren<MeshFilter>().mesh;
         Bounds baseBounds = cloneMesh.bounds;
-        float heightOffset = baseBounds.size.y;
+        float heightOffset = 4.5f * baseBounds.size.y;
+
 
         clone.transform.SetParent(this.transform);
 

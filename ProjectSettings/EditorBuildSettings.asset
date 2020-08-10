@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/_Title.unity
     guid: 6dd3ed90c01662b4c98d11b60a75edfb
   - enabled: 1
+    path: Assets/Scenes/_Interior/Level 1.unity
+    guid: 8efe265854730b34aa4bd78aa648919f
+  - enabled: 1
     path: Assets/Scenes/_City.unity
     guid: e093a335e2405b540b68787e581e961f
   - enabled: 1
     path: Assets/Scenes/_Neighborhood.unity
     guid: e2c823d1c24686b4daa2351dad9f604e
+  - enabled: 1
+    path: Assets/Scenes/_Interior.unity
+    guid: bbd02839b0ab107439e3dc7235457560
   m_configObjects: {}
