@@ -1,8 +1,8 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-[CustomPropertyDrawer(typeof(FloatRange)), CustomPropertyDrawer(typeof(IntRange))]
-public class FloatOrIntRangeDrawer : PropertyDrawer {
+[CustomPropertyDrawer(typeof(FloatRange))]
+public class FloatRangeDrawer : PropertyDrawer {
 
 	public override void OnGUI (
 		Rect position, SerializedProperty property, GUIContent label

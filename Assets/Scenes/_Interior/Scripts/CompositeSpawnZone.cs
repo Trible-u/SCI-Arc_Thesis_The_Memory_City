@@ -29,9 +29,9 @@ public class CompositeSpawnZone : SpawnZone {
 		}
 	}
 
-	public override void SpawnShapes () {
+	public override Shape SpawnShape () {
 		if (overrideConfig) {
-			base.SpawnShapes();
+			return base.SpawnShape();
 		}
 		else {
 			int index;
@@ -44,7 +44,7 @@ public class CompositeSpawnZone : SpawnZone {
 			else {
 				index = Random.Range(0, spawnZones.Length);
 			}
-			spawnZones[index].SpawnShapes();
+			return spawnZones[index].SpawnShape();
 		}
 	}
 
