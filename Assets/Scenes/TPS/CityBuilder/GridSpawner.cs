@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GridSpawner : MonoBehaviour
 {
@@ -40,5 +41,11 @@ public class GridSpawner : MonoBehaviour
         }
     }
 
-    
+    public void SetgridOffset(Slider slider)
+    {
+        gridOffset = slider.value;
+    }
+
+
+
 }

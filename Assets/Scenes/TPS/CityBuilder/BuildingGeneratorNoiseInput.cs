@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BuildingGeneratorNoiseInput : MonoBehaviour
 {
-    public int maxPieces = 20;
+    //public int maxPieces = 20;
+    public float maxPieces = 2f;
     public float perlinScaleFactor = 2f;
 
     public int randomVariationMin = -5;
@@ -18,6 +20,10 @@ public class BuildingGeneratorNoiseInput : MonoBehaviour
         Build();
     }
 
+    public void SetmaxPieces(Slider slider)
+    {
+        maxPieces = slider.value;
+    }
 
     public void Build()
     {
@@ -57,5 +63,7 @@ public class BuildingGeneratorNoiseInput : MonoBehaviour
 
         return heightOffset;
     }
+
+    
 
 }
