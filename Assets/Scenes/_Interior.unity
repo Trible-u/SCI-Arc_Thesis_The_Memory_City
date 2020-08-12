@@ -1019,7 +1019,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: BackGame
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
   source: {fileID: 940538606}
-  vibrancy: 2
+  vibrancy: 2.5
   brightness: 0
   flatten: 0.1
   spriteBlending: 0.254
@@ -1814,7 +1814,7 @@ MonoBehaviour:
   saveKey: 115
   loadKey: 108
   storage: {fileID: 362744718}
-  levelCount: 9
+  levelCount: 5
   reseedOnLoad: 0
   creationSpeedSlider: {fileID: 1219173306}
   destructionSpeedSlider: {fileID: 1899599107}
@@ -2039,6 +2039,7 @@ GameObject:
   - component: {fileID: 940538606}
   - component: {fileID: 940538605}
   - component: {fileID: 940538600}
+  - component: {fileID: 940538603}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2117,13 +2118,30 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940538599}
-  m_LocalRotation: {x: -0.005790826, y: -0.99555796, z: 0.09266234, w: -0.015639935}
-  m_LocalPosition: {x: -4.41, y: 4.91, z: 64.84}
+  m_LocalRotation: {x: 0.09274338, y: -0.0004071, z: 0.0043705706, w: 0.9956804}
+  m_LocalPosition: {x: -4.41, y: 1, z: -106.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 10.643001, y: -181.75299, z: 0.503}
+  m_LocalEulerAnglesHint: {x: 10.643001, y: 0, z: 0.503}
+--- !u!114 &940538603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940538599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d048f4bb8a0104da7d84bdc0f91c2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraSensitivity: 90
+  climbSpeed: 20
+  normalMoveSpeed: 20
+  slowMoveFactor: 0.5
+  fastMoveFactor: 4
 --- !u!114 &940538604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3070,7 +3088,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
   source: {fileID: 940538606}
-  vibrancy: 2
+  vibrancy: 2.5
   brightness: 0
   flatten: 0.1
   spriteBlending: 0.254
@@ -3154,7 +3172,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
   source: {fileID: 940538606}
-  vibrancy: 2
+  vibrancy: 2.5
   brightness: 0
   flatten: 0.1
   spriteBlending: 0.65
@@ -3249,7 +3267,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: Generate
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3289,7 +3307,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
   source: {fileID: 940538606}
-  vibrancy: 2
+  vibrancy: 2.5
   brightness: 0
   flatten: 0.1
   spriteBlending: 0.254
@@ -3424,7 +3442,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
   source: {fileID: 940538606}
-  vibrancy: 2
+  vibrancy: 2.5
   brightness: 0
   flatten: 0.1
   spriteBlending: 0.254
@@ -3669,7 +3687,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: CityGame
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3709,7 +3727,7 @@ MonoBehaviour:
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
   source: {fileID: 940538606}
-  vibrancy: 2
+  vibrancy: 2.5
   brightness: 0
   flatten: 0.1
   spriteBlending: 0.254
