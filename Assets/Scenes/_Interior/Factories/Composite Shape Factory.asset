@@ -13,11 +13,17 @@ MonoBehaviour:
   m_Name: Composite Shape Factory
   m_EditorClassIdentifier: 
   prefabs:
-  - {fileID: 3025579941449042901, guid: ee3aee7724b85284993a05042b19bb47, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: -4531111713965005049, guid: 573dc0a4e71eb5e41ae0ce230e477de9, type: 3}
+  - {fileID: 5867815385199722484, guid: fe3514c85b96c464c8bbeccc7522a72a, type: 3}
+  - {fileID: 1482159056206369959, guid: 92454627aab3b624c955d3f79477f628, type: 3}
+  - {fileID: 6782968285278299001, guid: 84582080316b4da4481728f9ddb35e72, type: 3}
+  - {fileID: 3741481784291228226, guid: 6c13320b5f5b4e34888239fd6dc8fc8d, type: 3}
+  - {fileID: -398748206099395703, guid: 956c9107ce8bdb6429d15cdfa6277ffc, type: 3}
   materials:
-  - {fileID: 2100000, guid: f16add14a24b04434930325969577b66, type: 2}
-  - {fileID: 2100000, guid: b142e460cdcb3465da3359ddbcf225a3, type: 2}
-  - {fileID: 2100000, guid: 573aacb78597e48d7b9ba253966333e7, type: 2}
+  - {fileID: 2100000, guid: 06881ea681ad3ae429fa67f134f37637, type: 2}
+  - {fileID: 2100000, guid: e30d4a0ee5bd6ee40bc2066fe02f6e84, type: 2}
+  - {fileID: 2100000, guid: b81a6d2271e265a4296305d6fda355aa, type: 2}
+  - {fileID: 2100000, guid: 1db10eb8262d88f458d1bd5378b413bf, type: 2}
+  - {fileID: 2100000, guid: 11bef385bb339164c98f717becd07b11, type: 2}
+  - {fileID: 2100000, guid: 672953562c1fbe046b3572e3ffa723ad, type: 2}
   recycle: 1

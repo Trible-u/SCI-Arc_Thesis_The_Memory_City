@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabs:
   - {fileID: 3025579941449042901, guid: ee3aee7724b85284993a05042b19bb47, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1623411455047770048, guid: e3c02bd8ccbc04d4c886c5d7f24664e3, type: 3}
+  - {fileID: 65814545567206389, guid: 7b591031b79fffc44bd121d5c9972783, type: 3}
   materials:
-  - {fileID: 2100000, guid: f16add14a24b04434930325969577b66, type: 2}
-  - {fileID: 2100000, guid: b142e460cdcb3465da3359ddbcf225a3, type: 2}
-  - {fileID: 2100000, guid: 573aacb78597e48d7b9ba253966333e7, type: 2}
+  - {fileID: 2100000, guid: 07a7274180c60794e90f582c1d26d179, type: 2}
+  - {fileID: 2100000, guid: b02935324f024564ca3cc983d15724be, type: 2}
+  - {fileID: 2100000, guid: ebfb8754511ae7e4cb14632d9e3887c0, type: 2}
   recycle: 1
