@@ -1389,7 +1389,7 @@ MonoBehaviour:
   saveKey: 115
   loadKey: 108
   storage: {fileID: 362744718}
-  levelCount: 5
+  levelCount: 9
   reseedOnLoad: 0
   creationSpeedSlider: {fileID: 1219173306}
   destructionSpeedSlider: {fileID: 1899599107}
