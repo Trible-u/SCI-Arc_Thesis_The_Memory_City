@@ -39,11 +39,11 @@ public class BuildingGenerator : MonoBehaviour
         GameObject clone = Instantiate(randomTransform.gameObject, this.transform.position 
             + new Vector3 (0, inputHeight, 0), transform.rotation) as GameObject;
         Mesh cloneMesh = clone.GetComponentInChildren<MeshFilter>().mesh;
-        Bounds bounds = clone.GetComponentInChildren<Renderer>().bounds;
 
-        //Bounds bounds = cloneMesh.bounds;
-        float heightOffset = bounds.size.y;
+        Bounds bounds = cloneMesh.bounds;
+
         //float heightOffset = bounds.size.y;
+        float heightOffset = clone.transform.localScale.y;
 
         clone.transform.SetParent(this.transform);
 

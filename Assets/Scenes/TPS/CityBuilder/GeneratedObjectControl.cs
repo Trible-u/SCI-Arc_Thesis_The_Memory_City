@@ -12,6 +12,11 @@ public class GeneratedObjectControl : MonoBehaviour
     public PerlinGenerator perlinGenerator;
     public GridSpawner gridSpawner;
 
+    private void Start()
+    {
+        Generate();
+    }
+
     void Awake()
     {
         if(instance == null)
@@ -37,11 +42,7 @@ public class GeneratedObjectControl : MonoBehaviour
             Generate();
             
         }
-        
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(0);
-        }
+       
 
     }
 
