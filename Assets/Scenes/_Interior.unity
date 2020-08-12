@@ -1393,7 +1393,7 @@ MonoBehaviour:
   levelCount: 5
   reseedOnLoad: 0
   creationSpeedSlider: {fileID: 1219173306}
-  destructionSpeedSlider: {fileID: 0}
+  destructionSpeedSlider: {fileID: 1899599107}
 --- !u!4 &816819684
 Transform:
   m_ObjectHideFlags: 0
