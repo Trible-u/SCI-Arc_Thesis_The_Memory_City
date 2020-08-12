@@ -23,12 +23,21 @@ public class MainMenu : MonoBehaviour{
 
     public void InteriorGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(3);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
     public void CityGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        SceneManager.LoadScene(1);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
+
+    public void Neighborhood()
+    {
+        SceneManager.LoadScene(2);
+        
+    }
+
 }
 
