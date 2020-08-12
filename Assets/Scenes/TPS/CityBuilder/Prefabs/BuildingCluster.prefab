@@ -48,5 +48,5 @@ MonoBehaviour:
   prefabToSpawn: {fileID: 7599520894186034001, guid: eac31673b01b69a4a97ac3cfaca442f1,
     type: 3}
   gridOrigin: {x: -10, y: 0, z: -10}
-  gridOffset: 90
+  gridOffset: 62
   generateOnEnable: 1
