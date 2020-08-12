@@ -497,7 +497,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 362744717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e75ea1b2d9f1ff48af730f7911f8695, type: 3}
+  m_Script: {fileID: 11500000, guid: fd1e5f11d22b94bd2abab45156b817d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &362744719
@@ -1393,6 +1393,7 @@ MonoBehaviour:
   reseedOnLoad: 0
   creationSpeedSlider: {fileID: 1219173306}
   destructionSpeedSlider: {fileID: 1899599107}
+  destroyDuration: 0
 --- !u!4 &816819684
 Transform:
   m_ObjectHideFlags: 0

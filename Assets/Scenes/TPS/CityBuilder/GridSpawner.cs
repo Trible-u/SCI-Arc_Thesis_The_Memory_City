@@ -10,7 +10,7 @@ public class GridSpawner : MonoBehaviour
     public int gridZ = 4;
     public GameObject prefabToSpawn;
     public Vector3 gridOrigin = Vector3.zero;
-    public float gridOffset = 2f;
+    public float gridOffset = 62f;
     public bool generateOnEnable;
 
 
