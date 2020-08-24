@@ -5,7 +5,8 @@ public class CubeSpawnZone : SpawnZone {
 	[SerializeField]
 	bool surfaceOnly;
 
-	public override Vector3 SpawnPoint {
+	public override Vector3 SpawnPoint
+    {
 		get {
 			Vector3 p;
 			p.x = Random.Range(-0.5f, 0.5f);
