@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/_Neighborhood.unity
     guid: e2c823d1c24686b4daa2351dad9f604e
   - enabled: 1
-    path: Assets/Scenes/_Interior.unity
-    guid: bbd02839b0ab107439e3dc7235457560
+    path: Assets/Scenes/_Interior_New.unity
+    guid: a19f51c803bf5e845a1b9bbef30d1d79
   m_configObjects: {}
