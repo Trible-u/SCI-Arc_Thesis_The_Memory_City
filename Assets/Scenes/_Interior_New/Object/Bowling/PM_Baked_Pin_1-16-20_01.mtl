@@ -1,0 +1,16 @@
+# Blender MTL File: 'PM_Baked_Pin_1-16-20_01.blend'
+# Material Count: 1
+
+newmtl Pin_Baked
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump Content\\Assets\\Baked\\Pin_Norm_1-15-20_01.png
+map_Kd Content\\Assets\\Baked\\Baked_Pins_11-29-18_04.jpg
+map_Ks Content\\Assets\\Baked\\Baked_Pins_Roughness_1-14-20_01.jpg
+map_Ns Content\\Assets\\Baked\\Baked_Pins_Roughness_1-14-20_01.jpg
