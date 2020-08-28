@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 8cd15fe4728d9994d85a71a533048fbd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 29
+  projectContext: 2
+  mGraphInstanceData:
+  - graphLabel: marble_004
+    prototypeName: marble_004
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://marble_004/marble_004\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"2809843515\" type=\"8\" value=\"9,9\" />\n
+      </sbspreset>\n"
+    shaderName: Universal Render Pipeline/Lit
+    materialProperties:
+      shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+      shaderKeywords: _NORMALMAP
+      lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: -1
+      texEnvs:
+      - name: _BaseMap
+        texture: {fileID: -4322052597096439664, guid: 8cd15fe4728d9994d85a71a533048fbd,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _BumpMap
+        texture: {fileID: 525479200609192384, guid: 8cd15fe4728d9994d85a71a533048fbd,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _SpecGlossMap
+        texture: {fileID: -3057757947491325090, guid: 8cd15fe4728d9994d85a71a533048fbd,
+          type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _AlphaClip
+        float: 0
+      - name: _Blend
+        float: 0
+      - name: _BumpScale
+        float: 1
+      - name: _Cull
+        float: 2
+      - name: _Cutoff
+        float: 0.5
+      - name: _DstBlend
+        float: 0
+      - name: _EnvironmentReflections
+        float: 1
+      - name: _GlossMapScale
+        float: 0
+      - name: _Glossiness
+        float: 0
+      - name: _GlossyReflections
+        float: 0
+      - name: _Metallic
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _QueueOffset
+        float: 0
+      - name: _ReceiveShadows
+        float: 1
+      - name: _Smoothness
+        float: 1
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _Surface
+        float: 0
+      - name: _WorkflowMode
+        float: 1
+      - name: _ZWrite
+        float: 1
+      colors:
+      - name: _BaseColor
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+      - name: _SpecColor
+        color: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    outputDescList:
+    - outputName: diffuse
+      identifier: Diffuse
+      usageName: diffuse
+      channelStr: diffuse
+      label: Diffuse
+      usage: 0
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: specular
+      identifier: Specular
+      usageName: specular
+      channelStr: specular
+      label: Specular
+      usage: 11
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    - outputName: normal
+      identifier: Normal
+      usageName: normal
+      channelStr: normal
+      label: Normal
+      usage: 7
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: bump
+      identifier: Bump
+      usageName: bump
+      channelStr: bump
+      label: Bump
+      usage: 8
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: displacement
+      identifier: Displacement
+      usageName: displacement
+      channelStr: displacement
+      label: Displacement
+      usage: 10
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    - outputName: height
+      identifier: Height
+      usageName: height
+      channelStr: height
+      label: Height
+      usage: 9
+      bImage: 1
+      bNumerical: 0
+      bLinear: 1
+    texturePackingList:
+    - targetName: diffuse
+      components:
+      - sourceName: diffuse
+        from: 0
+        to: 3
+    - targetName: specular
+      components:
+      - sourceName: specular
+        from: 0
+        to: 3
+    - targetName: normal
+      components:
+      - sourceName: normal
+        from: 0
+        to: 3
+    - targetName: bump
+      components:
+      - sourceName: bump
+        from: 0
+        to: 3
+    - targetName: displacement
+      components:
+      - sourceName: displacement
+        from: 0
+        to: 3
+    - targetName: height
+      components:
+      - sourceName: height
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: marble_004 - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: marble_004 - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: marble_004 - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: marble_004 - bump
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: marble_004 - displacement
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: marble_004 - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 7007243734722425183, guid: 8cd15fe4728d9994d85a71a533048fbd,
+      type: 3}
+    generatedTextures:
+    - {fileID: -4322052597096439664, guid: 8cd15fe4728d9994d85a71a533048fbd, type: 3}
+    - {fileID: -3057757947491325090, guid: 8cd15fe4728d9994d85a71a533048fbd, type: 3}
+    - {fileID: 525479200609192384, guid: 8cd15fe4728d9994d85a71a533048fbd, type: 3}

@@ -140,12 +140,12 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.427
     min: 0
     max: 1
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.27
+    m_Value: 0.537
     min: 0.01
     max: 1
   rounded:
@@ -210,12 +210,12 @@ MonoBehaviour:
     min: 0.1
   aperture:
     m_OverrideState: 1
-    m_Value: 15
+    m_Value: 3
     min: 1
     max: 32
   focalLength:
     m_OverrideState: 1
-    m_Value: 75
+    m_Value: 30
     min: 1
     max: 300
   bladeCount:

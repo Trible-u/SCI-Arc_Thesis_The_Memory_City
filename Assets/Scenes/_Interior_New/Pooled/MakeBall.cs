@@ -10,7 +10,7 @@ public class MakeBall : MonoBehaviour {
     float spawnProgress;
     private int ballzero;
     private float scales;
-    public float scale = 2f;
+   // public float scale = 2f;
 	//[Header("This ball will be added to the object pooler when the game begins")]
 	//public GameObject differentBall;
 	//private int differentIndex;
@@ -29,7 +29,7 @@ public class MakeBall : MonoBehaviour {
    void Generate()
     {
         ballzero = Random.Range(0, ballIndex);
-        scales = Random.Range(0.2f, scale);
+       // scales = Random.Range(0.2f, scale);
         GameObject ball = OP.GetPooledObject(ballzero);
         //ball.transform.rotation = SpawnPoint.transform.rotation;
         float xPos = Random.Range(-10f, 10f);
@@ -37,7 +37,7 @@ public class MakeBall : MonoBehaviour {
         float yPos = Random.Range(-10f, 10f);
         ball.transform.position = SpawnPoint.transform.position + xPos * Vector3.right + zPos * Vector3.forward + yPos * Vector3.left;
         ball.transform.rotation = Random.rotation;
-        ball.transform.localScale = scales * ball.transform.localScale;
+        //ball.transform.localScale = scales * ball.transform.localScale;
         ball.SetActive(true);
         
     }

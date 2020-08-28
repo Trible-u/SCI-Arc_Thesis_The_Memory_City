@@ -1,0 +1,36 @@
+﻿using UnityEditor;
+
+namespace MTAssets
+{
+    /*
+    * This class removes scripts no longer used by MT assets.
+    */
+
+    [InitializeOnLoad]
+    class PatcherFixer
+    {
+        static PatcherFixer()
+        {
+            //Run the patcher after Unity compiles
+            EditorApplication.delayCall += RunFixer;
+        }
+
+        static void RunFixer()
+        {
+            //Path to old PatcherUpdater files
+            string patcherUpdaterPath = "Assets/MT Assets/_AssetsData/Patcher/Editor/PatcherUpdater.cs";
+            string patcherPath = "Assets/MT Assets/_AssetsData/Patcher/Editor/Patcher.cs";
+
+            //Delete the Old Patcher
+            if (AssetDatabase.LoadAssetAtPath(patcherUpdaterPath, typeof(object)) != null)
+                AssetDatabase.DeleteAsset(patcherUpdaterPath);
+            if (AssetDatabase.LoadAssetAtPath(patcherPath, typeof(object)) != null)
+                AssetDatabase.DeleteAsset(patcherPath);
+
+            //Delete this script, if all is fixed
+            if (AssetDatabase.LoadAssetAtPath(patcherUpdaterPath, typeof(object)) == null &&
+                AssetDatabase.LoadAssetAtPath(patcherPath, typeof(object)) == null)
+                AssetDatabase.DeleteAsset("Assets/MT Assets/_AssetsData/Patcher/Editor/PatcherFixer.cs");
+        }
+    }
+}
