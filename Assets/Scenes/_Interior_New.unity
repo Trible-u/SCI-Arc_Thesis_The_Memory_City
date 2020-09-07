@@ -1876,7 +1876,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
   m_Intensity: 5.88
   m_Range: 10
   m_SpotAngle: 30
@@ -4145,8 +4145,8 @@ MonoBehaviour:
   _sepiaIntensity: 1
   _nightVision: 0
   _nightVisionColor: {r: 0.5, g: 1, b: 0.5, a: 0.5}
-  _outline: 0
-  _outlineColor: {r: 0, g: 0, b: 0, a: 0.8}
+  _outline: 1
+  _outlineColor: {r: 0.754717, g: 0.38803846, b: 0.38803846, a: 0.8}
   _outlineMode: 0
   _thermalVision: 0
   _lensDirt: 0
