@@ -190,7 +190,7 @@ Material:
     - _ReceiveShadows: 1
     - _RimEnabled: 0
     - _SampleGI: 0
-    - _SelfShadingSize: 0.772
+    - _SelfShadingSize: 0.738
     - _SelfShadingSizeExtra: 0.6
     - _ShadowEdgeSize: 0.05
     - _ShadowEdgeSizeExtra: 0.05
@@ -228,10 +228,10 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _Color: {r: 0.9716981, g: 0.8682214, b: 0.7471075, a: 1}
+    - _Color: {r: 0.9245283, g: 0.7778616, b: 0.61489856, a: 1}
     - _Color1: {r: 0, g: 0.7, b: 0.74, a: 0}
     - _Color2: {r: 0.97, g: 0.67, b: 0.51, a: 0}
-    - _ColorDim: {r: 0.4433962, g: 0.22797258, b: 0.22797258, a: 1}
+    - _ColorDim: {r: 0.509434, g: 0.26192597, b: 0.44988164, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
