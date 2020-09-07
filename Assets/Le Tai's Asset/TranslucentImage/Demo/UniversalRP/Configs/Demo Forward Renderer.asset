@@ -95,7 +95,8 @@ MonoBehaviour:
   - {fileID: 2628654689990130467}
   - {fileID: -6007875704284479939}
   - {fileID: -8573024207003648820}
-  m_RendererFeatureMap: 23bb066a83db7a243d7e6cc7e0bc9facccfcb8d2e77f0689
+  - {fileID: 7664256818211951082}
+  m_RendererFeatureMap: 23bb066a83db7a243d7e6cc7e0bc9facccfcb8d2e77f0689ea91e31cf8e85c6a
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   shaders:
     blitPS: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
@@ -171,3 +172,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   interceptionPoint: 1000
+--- !u!114 &7664256818211951082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cbabd8e2cb2e4f8a930752453adf79a, type: 3}
+  m_Name: Beautify
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  shader: {fileID: 4800000, guid: 55d70ca4ea7504a38b66170bbe587b2f, type: 3}

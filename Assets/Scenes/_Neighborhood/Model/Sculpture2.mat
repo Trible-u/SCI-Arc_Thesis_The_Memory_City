@@ -68,10 +68,10 @@ Material:
     - _DstBlend: 0
     - _EnvironmentReflections: 1
     - _FlatRimEdgeSmoothness: 0.5
-    - _FlatRimLightAlign: 0
-    - _FlatRimSize: 0.149
+    - _FlatRimLightAlign: 0.1
+    - _FlatRimSize: 0.09
     - _FlatSpecularEdgeSmoothness: 0
-    - _FlatSpecularSize: 0.122
+    - _FlatSpecularSize: 0.722
     - _Flatness: 1
     - _FlatnessExtra: 1
     - _GlossMapScale: 0
@@ -88,10 +88,10 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _RimEnabled: 1
-    - _SelfShadingSize: 0.672
-    - _SelfShadingSizeExtra: 0.458
-    - _ShadowEdgeSize: 0.27
-    - _ShadowEdgeSizeExtra: 0.05
+    - _SelfShadingSize: 0.858
+    - _SelfShadingSizeExtra: 0.741
+    - _ShadowEdgeSize: 0.076
+    - _ShadowEdgeSizeExtra: 0.082
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularEnabled: 1
@@ -107,8 +107,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.6415094, g: 0.2940523, b: 0.21484515, a: 1}
-    - _ColorDim: {r: 0.7169812, g: 0.70630264, b: 0.5309719, a: 1}
+    - _Color: {r: 0.39334726, g: 0.38781595, b: 0.7830189, a: 1}
+    - _ColorDim: {r: 0.8490566, g: 0.46057317, b: 0.5257477, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorDimExtra: {r: 0.8301887, g: 0.82754326, b: 0.57564974, a: 1}
     - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
