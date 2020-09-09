@@ -22,5 +22,5 @@ MonoBehaviour:
   minNormalsThreshold: 0
   maxNormalsThreshold: 10
   minColorThreshold: 0
-  maxColorThreshold: 0.25
+  maxColorThreshold: 10
   outlineOnly: 0

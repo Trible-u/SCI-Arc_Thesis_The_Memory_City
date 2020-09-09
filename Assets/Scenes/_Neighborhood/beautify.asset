@@ -48,7 +48,7 @@ MonoBehaviour:
     m_Value: 0
   turboMode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   directWrite:
     m_OverrideState: 1
     m_Value: 0
@@ -672,16 +672,16 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {fileID: 0}
   outline:
-    m_OverrideState: 1
-    m_Value: 1
+    m_OverrideState: 0
+    m_Value: 0
   outlineColor:
-    m_OverrideState: 1
-    m_Value: {r: 0.17412782, g: 0.32607105, b: 0.4056604, a: 0.8}
+    m_OverrideState: 0
+    m_Value: {r: 0.23344605, g: 0.5831154, b: 0.8113208, a: 0.8}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
   outlineThreshold:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.9
     min: 0
     max: 1
