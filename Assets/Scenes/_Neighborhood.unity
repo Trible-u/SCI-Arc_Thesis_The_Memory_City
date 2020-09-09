@@ -8085,7 +8085,7 @@ PrefabInstance:
     - target: {fileID: 4532997581541883212, guid: 00ab7409113e94a44b33c34c0e184b18,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4532997581541883212, guid: 00ab7409113e94a44b33c34c0e184b18,
         type: 3}
@@ -13464,7 +13464,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 01d893152e108d5448f73cdb5d05ff1e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.48
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 01d893152e108d5448f73cdb5d05ff1e,
         type: 3}
@@ -13821,18 +13821,6 @@ MonoBehaviour:
   cam: {fileID: 940538602}
   speed: 6
   turnSmoothTime: 0.1
---- !u!114 &1895983344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1895983340}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 877fbc67ffd3c3c4b81f2bd423de1a8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!64 &1895983345
 MeshCollider:
   m_ObjectHideFlags: 0
