@@ -3316,7 +3316,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164959208}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27e264674b13c1e47b90103048325f68, type: 3}
   m_Name: 
@@ -15735,7 +15735,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f4ea4baadd611741a89b42a75fd7e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiCamera: {fileID: 0}
 --- !u!1 &1020418186
 GameObject:
   m_ObjectHideFlags: 0
@@ -28043,7 +28042,7 @@ MonoBehaviour:
       type: 3}
     amountToPool: 2
     shouldExpand: 1
-  - objectToPool: {fileID: 7056245317021775541, guid: 84582080316b4da4481728f9ddb35e72,
+  - objectToPool: {fileID: 7912713833399199908, guid: a40ed60b0ad98264b9b6e01b7fac5461,
       type: 3}
     amountToPool: 2
     shouldExpand: 1
@@ -28051,11 +28050,11 @@ MonoBehaviour:
       type: 3}
     amountToPool: 2
     shouldExpand: 1
-  - objectToPool: {fileID: 1239879691686397143, guid: 956c9107ce8bdb6429d15cdfa6277ffc,
+  - objectToPool: {fileID: 3919675135117113493, guid: fe3514c85b96c464c8bbeccc7522a72a,
       type: 3}
     amountToPool: 2
     shouldExpand: 1
-  - objectToPool: {fileID: 6007555498649040117, guid: 6c13320b5f5b4e34888239fd6dc8fc8d,
+  - objectToPool: {fileID: 7082312452755933983, guid: f63930c8de88eb34fbbda023c9fe5f5a,
       type: 3}
     amountToPool: 2
     shouldExpand: 1
