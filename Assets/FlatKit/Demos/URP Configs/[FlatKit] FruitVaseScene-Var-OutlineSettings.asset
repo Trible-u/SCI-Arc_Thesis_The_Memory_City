@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: '[FlatKit] FruitVaseScene-Var-OutlineSettings'
   m_EditorClassIdentifier: 
   edgeColor: {r: 0, g: 0, b: 0, a: 1}
-  thickness: 2
+  thickness: 1
   useDepth: 1
   useNormals: 1
   useColor: 0
