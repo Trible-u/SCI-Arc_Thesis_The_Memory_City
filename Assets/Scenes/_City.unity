@@ -3050,7 +3050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &60947836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3067,7 +3067,7 @@ MonoBehaviour:
   width: 15
   height: 15
   tiles: {fileID: 749491276}
-  cursor: {x: 1, y: 9, z: 0}
+  cursor: {x: 14, y: 10, z: 0}
   focused: 0
   palette:
   - {fileID: 4055471879168725697, guid: 8a94c8fada500ef4697a710ea14e33c6, type: 3}
