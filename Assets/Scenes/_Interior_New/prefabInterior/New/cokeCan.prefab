@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -4646409735779702600}
   - component: {fileID: 8317137683996269810}
   - component: {fileID: 3955310231359250715}
+  - component: {fileID: 2188717470204502407}
   m_Layer: 0
   m_Name: cokeCan
   m_TagString: Untagged
@@ -125,3 +126,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8021592523259197070, guid: 2eb3a92af72220f44bb8f7f8d2a70a9e, type: 3}
+--- !u!114 &2188717470204502407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8278288193291669710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: '~coke
+
+    `>go to a country with famously low crime rate and extremely
+    strict drug laws
+
+    >get busted with coke'
+  infoRight: 

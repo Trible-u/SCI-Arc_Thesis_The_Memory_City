@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -3765899798010129427}
   - component: {fileID: 7814796863205432959}
   - component: {fileID: -6574613037037211048}
+  - component: {fileID: 3600887375345626520}
   m_Layer: 0
   m_Name: cups_004
   m_TagString: Untagged
@@ -156,3 +157,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3600887375345626520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6735777605799812806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: '~Coffee cup
+
+    `I''m old enough to remember the weeks of outrage
+    Fox News gave President Obama once saluting Marine 1 staff without placing his
+    coffee cup down first.'
+  infoRight: 

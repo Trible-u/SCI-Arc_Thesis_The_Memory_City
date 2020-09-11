@@ -164,5 +164,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
-  infoLeft: "thank fuck i can have avocado tomorrow...my soul needs them\r."
+  infoLeft: "~Avocado\n`thank fuck i can have avocado tomorrow...my soul needs them\r."
   infoRight: 

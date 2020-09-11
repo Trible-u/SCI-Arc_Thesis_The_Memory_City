@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6797834912711694833}
   - component: {fileID: 2814763272143643667}
   - component: {fileID: 5615667233788662048}
+  - component: {fileID: 4499374244370597080}
   m_Layer: 0
   m_Name: 017
   m_TagString: Untagged
@@ -151,3 +152,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 4
+--- !u!114 &4499374244370597080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6176970479768108923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: '~Tomato
+
+    `saw a tweet earlier that burgers shouldn''t have tomatoes,
+    and now i want a burger with tomato'
+  infoRight: 

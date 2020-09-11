@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4012105825640099274}
   - component: {fileID: 2895176821203706081}
   - component: {fileID: 1602451273263168941}
+  - component: {fileID: 6893190098309997316}
   m_Layer: 0
   m_Name: DNA
   m_TagString: Untagged
@@ -125,3 +126,20 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4994426476664966372, guid: 70227a87bb1d8bd4cbe01730c8a09d0c, type: 3}
+--- !u!114 &6893190098309997316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7470887970356982771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: '~DNA
+
+    `DNA paved the way !'
+  infoRight: 

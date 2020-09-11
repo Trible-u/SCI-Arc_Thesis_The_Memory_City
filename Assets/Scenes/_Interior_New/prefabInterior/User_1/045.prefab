@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7806450614787825864}
   - component: {fileID: -4754729354954583185}
   - component: {fileID: 13826027493012766}
+  - component: {fileID: 1619679674534454478}
   m_Layer: 0
   m_Name: 045
   m_TagString: Untagged
@@ -151,3 +152,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1619679674534454478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597906962457184367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: '~Wine glass
+
+    `Current mood: Headbanging in the kitchen listening
+    to Demi Lovato but then being oh so delicate with my wine glass as I take a sip'
+  infoRight: 

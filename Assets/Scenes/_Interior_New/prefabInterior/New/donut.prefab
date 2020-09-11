@@ -139,5 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
-  infoLeft: Is it appropriate to eat a custard donut at 10Am?
+  infoLeft: '~Donut
+
+    `Is it appropriate to eat a custard donut at 10Am?'
   infoRight: 
