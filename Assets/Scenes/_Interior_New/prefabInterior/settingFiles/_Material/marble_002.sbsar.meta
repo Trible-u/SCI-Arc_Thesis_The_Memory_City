@@ -19,26 +19,26 @@ ScriptedImporter:
     preset: " <sbspreset pkgurl=\"pkg://marble_002/marble_002\" label=\"\" >\n  <presetinput
       identifier=\"$outputsize\" uid=\"2703544302\" type=\"8\" value=\"9,9\" />\n
       </sbspreset>\n"
-    shaderName: Universal Render Pipeline/Lit
+    shaderName: FlatKit/Stylized Surface With Outline
     materialProperties:
-      shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-      shaderKeywords: _NORMALMAP
+      shader: {fileID: 4800000, guid: f7e38193b7f064d7380403618fd8b69e, type: 3}
+      shaderKeywords: DR_CEL_EXTRA_ON DR_GRADIENT_ON DR_RIM_ON _CELPRIMARYMODE_SINGLE
+        _NORMALMAP _TEXTUREBLENDINGMODE_MULTIPLY _UNITYSHADOWMODE_NONE
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
       customRenderQueue: -1
       texEnvs:
-      - name: _BaseMap
-        texture: {fileID: -1042460764681083469, guid: 6cf48e76e78b07e4fb5f9ad2544dc2bb,
-          type: 3}
-        scale: {x: 1, y: 1}
-        offset: {x: 0, y: 0}
       - name: _BumpMap
         texture: {fileID: -9053533889220013469, guid: 6cf48e76e78b07e4fb5f9ad2544dc2bb,
           type: 3}
         scale: {x: 1, y: 1}
         offset: {x: 0, y: 0}
-      - name: _EmissionMap
+      - name: _CelCurveTexture
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _CelStepTexture
         texture: {instanceID: 0}
         scale: {x: 1, y: 1}
         offset: {x: 0, y: 0}
@@ -46,71 +46,104 @@ ScriptedImporter:
         texture: {instanceID: 0}
         scale: {x: 1, y: 1}
         offset: {x: 0, y: 0}
-      - name: _MetallicGlossMap
-        texture: {instanceID: 0}
-        scale: {x: 1, y: 1}
-        offset: {x: 0, y: 0}
-      - name: _OcclusionMap
-        texture: {instanceID: 0}
-        scale: {x: 1, y: 1}
-        offset: {x: 0, y: 0}
-      - name: _SpecGlossMap
-        texture: {fileID: 9165345440050590078, guid: 6cf48e76e78b07e4fb5f9ad2544dc2bb,
-          type: 3}
-        scale: {x: 1, y: 1}
-        offset: {x: 0, y: 0}
       floats:
       - name: _AlphaClip
         float: 0
       - name: _Blend
         float: 0
-      - name: _BumpScale
+      - name: _CelExtraEnabled
+        float: 1
+      - name: _CelNumSteps
+        float: 3
+      - name: _CelPrimaryMode
         float: 1
       - name: _Cull
         float: 2
-      - name: _Cutoff
-        float: 0.5
       - name: _DstBlend
         float: 0
-      - name: _EnvironmentReflections
+      - name: _FlatRimEdgeSmoothness
+        float: 0.5
+      - name: _FlatRimLightAlign
+        float: 0
+      - name: _FlatRimSize
+        float: 0.5
+      - name: _FlatSpecularEdgeSmoothness
+        float: 0
+      - name: _FlatSpecularSize
+        float: 0.1
+      - name: _Flatness
         float: 1
-      - name: _GlossMapScale
+      - name: _FlatnessExtra
+        float: 1
+      - name: _GradientAngle
         float: 0
-      - name: _Glossiness
+      - name: _GradientCenterX
         float: 0
-      - name: _GlossyReflections
+      - name: _GradientCenterY
         float: 0
-      - name: _Metallic
+      - name: _GradientEnabled
+        float: 1
+      - name: _GradientSize
+        float: 10
+      - name: _LightContribution
         float: 0
-      - name: _OcclusionStrength
+      - name: _OutlineDepthOffset
+        float: 0
+      - name: _OutlineWidth
         float: 1
       - name: _QueueOffset
         float: 0
-      - name: _ReceiveShadows
+      - name: _RimEnabled
         float: 1
-      - name: _Smoothness
-        float: 1
-      - name: _SmoothnessTextureChannel
+      - name: _SelfShadingSize
+        float: 0.5
+      - name: _SelfShadingSizeExtra
+        float: 0.6
+      - name: _ShadowEdgeSize
+        float: 0.05
+      - name: _ShadowEdgeSizeExtra
+        float: 0.05
+      - name: _SpecularEnabled
         float: 0
-      - name: _SpecularHighlights
-        float: 1
       - name: _SrcBlend
         float: 1
       - name: _Surface
         float: 0
-      - name: _WorkflowMode
+      - name: _TextureBlendingMode
+        float: 0
+      - name: _TextureImpact
         float: 1
+      - name: _UnityShadowMode
+        float: 0
+      - name: _UnityShadowPower
+        float: 0.2
+      - name: _UnityShadowSharpness
+        float: 1
+      - name: _VertexColorsEnabled
+        float: 0
       - name: _ZWrite
         float: 1
       colors:
-      - name: _BaseColor
-        color: {r: 1, g: 1, b: 1, a: 1}
       - name: _Color
-        color: {r: 1, g: 1, b: 1, a: 1}
-      - name: _EmissionColor
-        color: {r: 0, g: 0, b: 0, a: 1}
-      - name: _SpecColor
-        color: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+        color: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 1}
+      - name: _ColorDim
+        color: {r: 1, g: 0.5896226, b: 0.5896226, a: 1}
+      - name: _ColorDimCurve
+        color: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
+      - name: _ColorDimExtra
+        color: {r: 0.7092827, g: 0.73769265, b: 0.9339623, a: 1}
+      - name: _ColorDimSteps
+        color: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
+      - name: _ColorGradient
+        color: {r: 0.7169812, g: 0.39569244, b: 0.39569244, a: 1}
+      - name: _FlatRimColor
+        color: {r: 0.58172077, g: 0.55651474, b: 0.6981132, a: 1}
+      - name: _FlatSpecularColor
+        color: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
+      - name: _OutlineColor
+        color: {r: 1, g: 0.5647059, b: 0.7921569, a: 1}
+      - name: _UnityShadowColor
+        color: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     outputDescList:
     - outputName: diffuse
       identifier: Diffuse
@@ -236,6 +269,4 @@ ScriptedImporter:
     material: {fileID: -5359005741270469867, guid: 6cf48e76e78b07e4fb5f9ad2544dc2bb,
       type: 3}
     generatedTextures:
-    - {fileID: -1042460764681083469, guid: 6cf48e76e78b07e4fb5f9ad2544dc2bb, type: 3}
-    - {fileID: 9165345440050590078, guid: 6cf48e76e78b07e4fb5f9ad2544dc2bb, type: 3}
     - {fileID: -9053533889220013469, guid: 6cf48e76e78b07e4fb5f9ad2544dc2bb, type: 3}
