@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7814796863205432959}
   - component: {fileID: -6574613037037211048}
   - component: {fileID: 3600887375345626520}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: cups_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ MonoBehaviour:
   simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
   infoLeft: '~Coffee cup
 
-    `I''m old enough to remember the weeks of outrage
-    Fox News gave President Obama once saluting Marine 1 staff without placing his
-    coffee cup down first.'
+    `I''m old enough to remember the weeks of outrage Fox
+    News gave President Obama once saluting Marine 1 staff without placing his coffee
+    cup down first.'
   infoRight: 

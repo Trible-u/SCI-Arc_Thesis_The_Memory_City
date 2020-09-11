@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1957159242461220812}
   - component: {fileID: -7697912001961190889}
   - component: {fileID: 5154710101592918055}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: toy026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -182,6 +182,6 @@ MonoBehaviour:
   simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
   infoLeft: '~Toy bear
 
-    `Found in my coat pockets: two toy cars, a stroller
-    tag, one pound of toy bears, the remains of my dignity.'
+    `Found in my coat pockets: two toy cars, a stroller tag,
+    one pound of toy bears, the remains of my dignity.'
   infoRight: 

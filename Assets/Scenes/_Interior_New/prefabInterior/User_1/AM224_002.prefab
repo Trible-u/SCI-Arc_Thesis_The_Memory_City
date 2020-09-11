@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -5446222906900616760}
   - component: {fileID: 3761479763296931159}
   - component: {fileID: -4408665272063584735}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: AM224_002
   m_TagString: Untagged
   m_Icon: {fileID: 0}

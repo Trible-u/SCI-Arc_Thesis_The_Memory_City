@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -8259279497357241822}
   - component: {fileID: 5529485206275870695}
   - component: {fileID: -2150761676418370486}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: 033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,6 +167,6 @@ MonoBehaviour:
   simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
   infoLeft: '~Plate
 
-    `Positive vibes. No mo bullshit. Aint shit on my plate
-    but bread.'
+    `Positive vibes. No mo bullshit. Aint shit on my plate but
+    bread.'
   infoRight: 

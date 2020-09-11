@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6010139767419593181}
   - component: {fileID: 6218098896557379846}
   - component: {fileID: -555043643135353967}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: toy052
   m_TagString: Untagged
   m_Icon: {fileID: 0}
