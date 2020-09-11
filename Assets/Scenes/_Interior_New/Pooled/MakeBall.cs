@@ -31,6 +31,7 @@ public class MakeBall : MonoBehaviour {
         ballzero = Random.Range(0, ballIndex);
        // scales = Random.Range(0.2f, scale);
         GameObject ball = OP.GetPooledObject(ballzero);
+        ball.tag = "Ball";
         //ball.transform.rotation = SpawnPoint.transform.rotation;
         float xPos = Random.Range(-10f, 10f);
         float zPos = Random.Range(-10f, 10f);
@@ -42,5 +43,32 @@ public class MakeBall : MonoBehaviour {
         
     }
 
-   
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            StartCoroutine(WaitaMoment());
+            var freeze = GameObject.FindGameObjectsWithTag("Ball");
+            foreach (var obj in freeze)
+            {
+                obj.GetComponent<DisableAfterTime>().enabled = false;
+                obj.SetActive(true);
+            }
+            //CancelInvoke();
+        }
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            InvokeRepeating("Generate", 1.0f, spawnInterval);
+        }
+
+    }
+
+    public IEnumerator WaitaMoment()
+    {
+        yield return new WaitForSeconds(3);
+        CancelInvoke();
+    }
+
+
 }
