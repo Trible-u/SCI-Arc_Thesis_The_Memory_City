@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -7393702129798645726}
   - component: {fileID: 5008647568009429431}
   - component: {fileID: -5305521455026097379}
+  - component: {fileID: 5835897627312734745}
   m_Layer: 0
   m_Name: 046
   m_TagString: Untagged
@@ -151,3 +152,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5835897627312734745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7541939411721356486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: '~Mug
+
+    `I miss those absurdly big ass coffee mugs from cafes'
+  infoRight: 

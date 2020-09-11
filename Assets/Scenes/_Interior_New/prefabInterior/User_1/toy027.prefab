@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -6235424979112234147}
   - component: {fileID: 242720482106146039}
   - component: {fileID: 7604387424960714954}
+  - component: {fileID: 3365757259980567347}
   m_Layer: 0
   m_Name: toy027
   m_TagString: Untagged
@@ -154,3 +155,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &3365757259980567347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6952221776724864892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: '~Doll
+
+    `Goo goo dolls and my best friend in my bed...... what more
+    could i want????'
+  infoRight: 

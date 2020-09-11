@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -2739975087871884893}
   - component: {fileID: 3541378642836332785}
   - component: {fileID: -1331434807383614767}
+  - component: {fileID: 1131322256583280003}
   m_Layer: 0
   m_Name: hydrant
   m_TagString: Untagged
@@ -140,3 +141,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 4
+--- !u!114 &1131322256583280003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3919675135117113493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: '~Hydyrant
+
+    `I really wish I knew how to squirt like a fire hydrant.'
+  infoRight: 
