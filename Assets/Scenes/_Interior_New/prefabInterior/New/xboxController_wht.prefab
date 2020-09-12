@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -8564863477544761474}
   - component: {fileID: 8165298851977730875}
   - component: {fileID: 6091523579620022753}
+  - component: {fileID: 8058989999188062287}
   m_Layer: 0
   m_Name: xboxController_wht
   m_TagString: Untagged
@@ -311,3 +312,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 4
+--- !u!114 &8058989999188062287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499065820701568669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: '~xbox white controller
+
+    `I go to plug in my white Xbox controller
+    to charge. I take my glasses off. Get up. Grab the cable and try and put the
+    cable in my glasses.'
+  infoRight: 

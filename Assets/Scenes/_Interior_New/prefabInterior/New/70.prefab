@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -6984777627334119422}
   - component: {fileID: 6032337709636328429}
   - component: {fileID: -1115512690645799990}
+  - component: {fileID: 5977127108828808214}
   m_Layer: 0
   m_Name: 70
   m_TagString: Untagged
@@ -86,8 +87,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5209386559919585115, guid: f99a2e6b846bccd49b5fdf97f14f6fd1, type: 3}
-  - {fileID: 2100000, guid: 0af90fe4a1e000745808f2bae109a64c, type: 2}
+  - {fileID: 2100000, guid: 56ac6a612a2e94edd94c3bdb140c66bf, type: 2}
+  - {fileID: 2100000, guid: d1d9a0db0a0c190438236688e5c72f22, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -151,3 +152,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 4
+--- !u!114 &5977127108828808214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7556944484458492299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: "~Faucet \r\n`The kitchen faucet exploded and we had an ant infestation
+    so if you find chaos a turn on HMU. "
+  infoRight: 

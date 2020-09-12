@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -2399580738267456237}
   - component: {fileID: -6314698062403562835}
   - component: {fileID: -8107451719667872364}
+  - component: {fileID: -4625452946210608446}
   m_Layer: 0
   m_Name: 044
   m_TagString: Untagged
@@ -151,3 +152,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 4
+--- !u!114 &-4625452946210608446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5473771224708672533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: f1d1c287ded68be43934c42c517f05d2, type: 2}
+  infoLeft: '~mushroom
+
+    `wheewww shiitake mushrooms are so good'
+  infoRight: 

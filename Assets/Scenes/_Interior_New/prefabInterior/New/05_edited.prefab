@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -470494570816742567}
   - component: {fileID: 6958124357946654301}
   - component: {fileID: -2373162330628603809}
+  - component: {fileID: 251068928064540251}
   m_Layer: 0
   m_Name: 05_edited
   m_TagString: Untagged
@@ -228,7 +229,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: 2100000, guid: c3f81ca1d300246269aa73091d2103f9, type: 2}
   - {fileID: 2100000, guid: e3abdacc86588450f93b1e2fad43846b, type: 2}
-  - {fileID: 2100000, guid: e30d4a0ee5bd6ee40bc2066fe02f6e84, type: 2}
+  - {fileID: 2100000, guid: 8135cf567f3a947aaa78e561607fa0ec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -292,3 +293,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 4
+--- !u!114 &251068928064540251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2961131498952049597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: '~Carrot
+
+    `I am making a soup with tomato broth, zucchini, potato,
+    onion, carrot and at the last minute I threw in some shrimp. Half the time I
+    destroy my perfectly edible dinner with last minute ingredients so I will find
+    out soon.'
+  infoRight: 

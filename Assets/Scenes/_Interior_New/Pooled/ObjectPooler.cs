@@ -28,7 +28,9 @@ public class ObjectPooler : MonoBehaviour
 	public List<GameObject> pooledObjects;
 	private List<int> positions;
 
-	void Awake()
+
+
+    void Awake()
 	{
 
 		SharedInstance = this;
@@ -37,8 +39,11 @@ public class ObjectPooler : MonoBehaviour
 		pooledObjects = new List<GameObject>();
 		positions = new List<int>();
 
+        
 
-		for (int i = 0; i < itemsToPool.Count; i++)
+
+
+        for (int i = 0; i < itemsToPool.Count; i++)
 		{
 			ObjectPoolItemToPooledObject(i);
 		}
@@ -105,4 +110,8 @@ public class ObjectPooler : MonoBehaviour
 		positions.Add(0);
 
 	}
+
+   
+
+   
 }

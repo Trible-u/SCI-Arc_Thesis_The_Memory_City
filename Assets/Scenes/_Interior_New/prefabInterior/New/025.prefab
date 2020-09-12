@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -3821908555623504935}
   - component: {fileID: 7241277543231980606}
   - component: {fileID: 595402093385424576}
+  - component: {fileID: -3679229921402759924}
   m_Layer: 0
   m_Name: 025
   m_TagString: Untagged
@@ -151,3 +152,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 4
+--- !u!114 &-3679229921402759924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5853856105006364824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99634edca86565b4a96a0b7b261787f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleTooltipStyle: {fileID: 11400000, guid: a104288cd74ebc84d80f27ae9b51d26c, type: 2}
+  infoLeft: '~eggplant
+
+    `I finally made a good eggplant dish. time for bed'
+  infoRight: 
