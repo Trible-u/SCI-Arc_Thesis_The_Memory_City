@@ -1,4 +1,5 @@
 # SCI-Arc_Thesis_The_Memory_City
+https://www.youtube.com/watch?v=F4No4Zw_EFU&t=97s
 Our thesis all began with one question. If the cemetery was the type corresponding to death in the urban context, what type corresponding to death on the internet?
 The current contemporary condition of digital social life gives us a chance to rethink death, memory, and the afterlife. 
 
